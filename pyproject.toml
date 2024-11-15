@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "reddit-politeness-classifier"
+version = "0.1.0"
+description = ""
+authors = ["Hju Kneyck Flores <hjucode@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+praw = "^7.8.1"
+requests = "^2.32.3"
+openai = "^1.54.4"
+isort = "^5.13.2"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
